@@ -207,6 +207,25 @@ li {
   Header styling starts here
 =================================*/
 
+header .flex-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+header figure {
+  width: 15%;
+}
+
+nav {
+  width: 70%;
+}
+
+.sign-in {
+  width: 15%;
+}
+
 /*=================================
   Header styling ends here
 =================================*/
@@ -215,6 +234,142 @@ li {
   main styling starts here
 =================================*/
 
+/* banner section */
+
+.banner {
+  padding: 60px 0 120px 0;
+  text-align: center;
+}
+
+/* freedom to create section */
+
+.freedom-to-create .flex-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.freedom-to-create .flex-container>.flexbox {
+  width: 50%;
+  padding: 60px 0 60px 0;
+}
+
+.freedom-to-create .flex-horizontal {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  border: 2px solid #000;
+  border-width: 2px 2px 0 2px;
+}
+
+.freedom-to-create .flex-horizontal>.flexbox {
+  width: 50%;
+  padding: 60px 0 60px 0;
+}
+
+.freedom-to-create .flex-vertical {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  border: 2px solid red;
+}
+
+.freedom-to-create .flex-vertical>.flexbox {
+  width: 50%;
+  padding: 60px 0 60px 0;
+}
+
+.freedom-to-create .flex-vertical>.flexbox:nth-child(1) {
+  order: 1;
+}
+
+.freedom-to-create .flex-vertical>.flexbox:nth-child(2) {
+  order: 3;
+}
+
+.freedom-to-create .flex-vertical>.flexbox:nth-child(3) {
+  order: 2;
+  margin-left: -2px;
+  border-left: 2px solid blue;
+}
+
+.freedom-to-create .flex-vertical>.flexbox:nth-child(4) {
+  order: 4;
+  margin-left: -2px;
+  border-left: 2px solid blue;
+}
+
+/* features section */
+
+.features {
+  text-align: center;
+}
+
+.features .flex-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  text-align: left;
+}
+
+.features .flex-container>.beautiful-blog {
+  width: 50%;
+}
+
+.features .flex-container>.media-galleries {
+  width: 50%;
+  padding-top: 60px;
+}
+
+.features .flex-container>.mobile-friendly {
+  width: 50%;
+}
+
+.features .flex-container>.online-store {
+  width: 50%;
+  padding-top: 60px;
+}
+
+.features .flex-container>.custom-domains {
+  width: 50%;
+}
+
+.features .flex-container>.industry-leading-seo {
+  width: 50%;
+  padding-top: 60px;
+}
+
+.features .flex-container>.flexbox {
+  width: 50%;
+  padding: 60px 0 120px 0;
+}
+
+.features .flex-container>.flexbox figure {
+  text-align: right;
+}
+
+/* how to section */
+
+.how-to .flex-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.how-to .flex-container>.flexbox {
+  width: 50%;
+  padding: 60px 0 120px 0;
+}
+
+.how-to .flex-container>.flexbox li {
+  color: red;
+}
+
 /*=================================
   main styling ends here
 =================================*/
@@ -222,6 +377,25 @@ li {
 /*=================================
   footer styling starts here
 =================================*/
+
+footer .flex-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+footer .flex-container>.flexbox {
+  width: 20%;
+}
+
+footer .flex-container>.flexbox li {
+  display: block;
+}
+
+footer .flex-container .social-links li {
+  display: inline-block;
+}
 
 /*=================================
   footer styling ends here
